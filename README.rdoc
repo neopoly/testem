@@ -1,0 +1,63 @@
+= Test'em {<img src="https://secure.travis-ci.org/neopoly/testem.png?branch=master" alt="Build Status" />}[https://travis-ci.org/testem/testem]
+
+Often used aliases for MiniTest::Spec.
+
+Aliases often used MiniTest::Spec hooks to Rails-like hooks.
+
+Gem[https://rubygems.org/gems/testem] |
+Source[https://github.com/neopoly/testem] |
+Documentation[http://rubydoc.info/github/neopoly/testem/master/file/README.rdoc]
+
+== Installation
+
+Add this line to your application's Gemfile:
+
+    gem 'testem'
+
+And then execute:
+
+    $ bundle
+
+Or install it yourself as:
+
+    $ gem install testem
+
+== Usage
+
+  require 'minitest/autorun'
+  require 'testem'
+
+  class LockTest < Testem
+    let(:lock) { Lock.new }
+
+    setup do
+      lock.aquire
+    end
+
+    teardown do
+      lock.release
+    end
+
+    context "locked" do
+      test "is locked" do
+        assert lock.locked?
+      end
+    end
+  end
+
+== Test
+
+  rake test
+
+== Release
+
+  edit lib/testem.rb
+  bundle exec rake release
+
+== Contributing
+
+1. Fork it
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create new Pull Request
