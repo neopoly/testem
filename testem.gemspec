@@ -1,11 +1,8 @@
 # -*- encoding: utf-8 -*-
-lib = File.expand_path('../lib', __FILE__)
-$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'testem'
 
 Gem::Specification.new do |gem|
   gem.name          = "testem"
-  gem.version       = Testem::VERSION
+  gem.version       = "0.1.0"
   gem.authors       = ["Peter Suschlik"]
   gem.email         = ["ps@neopoly.de"]
   gem.description   = %q{Often used aliases for MiniTest::Spec.}

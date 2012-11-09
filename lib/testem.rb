@@ -28,7 +28,7 @@ require 'minitest/spec'
 #     end
 #   end
 class Testem < MiniTest::Spec
-  VERSION = "0.0.1"
+  VERSION = "0.1.0"
 
   class << self
     alias :context :describe
