@@ -3,7 +3,7 @@ require 'minitest/spec'
 # Aliases often used MiniTest::Spec hooks to Rails-like hooks.
 #
 # * +context+ is aliased to +describe+
-# * +it+ is aliased to +it+
+# * +test+ is aliased to +it+
 # * +setup+ is aliased to +before+
 # * +teardown+ is aliased to +after+
 #
