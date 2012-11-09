@@ -2,11 +2,16 @@
 
 Often used aliases for MiniTest::Spec.
 
-Aliases often used MiniTest::Spec hooks to Rails-like hooks.
-
 Gem[https://rubygems.org/gems/testem] |
 Source[https://github.com/neopoly/testem] |
 Documentation[http://rubydoc.info/github/neopoly/testem/master/file/README.rdoc]
+
+Aliases often used MiniTest::Spec hooks to Rails-like hooks.
+
+* +context+ is aliased to +describe+
+* +it+ is aliased to +it+
+* +setup+ is aliased to +before+
+* +teardown+ is aliased to +after+
 
 == Installation
 
