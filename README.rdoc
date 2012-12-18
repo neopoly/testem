@@ -1,4 +1,4 @@
-= Test'em {<img src="https://secure.travis-ci.org/neopoly/testem.png?branch=master" alt="Build Status" />}[https://travis-ci.org/testem/testem]
+= Test'em {<img src="https://secure.travis-ci.org/neopoly/testem.png?branch=master" alt="Build Status" />}[https://travis-ci.org/neopoly/testem]
 
 Often used aliases for MiniTest::Spec.
 
