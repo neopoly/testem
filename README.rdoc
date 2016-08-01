@@ -1,5 +1,13 @@
 = Test'em {<img src="https://secure.travis-ci.org/neopoly/testem.png?branch=master" alt="Build Status" />}[https://travis-ci.org/neopoly/testem]
 
+:warning: :skull: :warning: :skull: :warning:
+
+== This gem is deprecated and is not maintained anymore
+
+Please define those 4 +alias+es by yourself.
+
+:warning: :skull: :warning: :skull: :warning:
+
 Often used aliases for MiniTest::Spec.
 
 Gem[https://rubygems.org/gems/testem] |
